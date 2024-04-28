@@ -1,0 +1,61 @@
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>Your Platform Name</title>
+                  <link rel="stylesheet" href="styles.css">
+                  <script>
+                      document.addEventListener('DOMContentLoaded', function() {
+                          // Click action for the "About Us" link
+                          document.querySelector('nav a[href="#about"]').addEventListener('click', function(event) {
+                              event.preventDefault();
+                              // Add your logic for handling the click action for "About Us" here
+                              console.log('About Us clicked');
+                          });
+
+                          // Click action for the "Services" link
+                          document.querySelector('nav a[href="#services"]').addEventListener('click', function(event) {
+                              event.preventDefault();
+                              // Add your logic for handling the click action for "Services" here
+                              console.log('Services clicked');
+                          });
+
+                         
+
+                          // Click action for the "Contact Us" link
+                          document.querySelector('nav a[href="#contact"]').addEventListener('click', function(event) {
+                              event.preventDefault();
+                              // Add your logic for handling the click action for "Contact Us" here
+                              console.log('Contact Us clicked');
+                          });
+
+                          // Click action for the "Sign Up" button
+                          document.querySelector('.cta-buttons .btn-primary').addEventListener('click', function(event) {
+                              event.preventDefault();
+                              // Add your logic for handling the click action for "Sign Up" button here
+                              console.log('Sign Up clicked');
+                          });
+
+                          // Click action for the "Learn More" button
+                          document.querySelector('.cta-buttons .btn-secondary').addEventListener('click', function(event) {
+                              event.preventDefault();
+                              // Add your logic for handling the click action for "Learn More" button here
+                              console.log('Learn More clicked');
+                          });
+                      });
+                  </script>
+              </head>
+              <body>
+                  <header>
+                      
+                      <h1>Welcome to Elderlink.io</h1>
+                      <p>Empowering families and caregivers for better senior care.</p>
+                      <div class="cta-buttons">
+                          <a href="signup.html" class="btn-primary">Sign Up</a>
+                          <a href="#learn-more" class="btn-secondary">Learn More</a>
+                      </div>
+                  </header>
+                  <!-- Main content sections go here -->
+              </body>
+              </html>

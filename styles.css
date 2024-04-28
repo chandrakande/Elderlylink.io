@@ -1,0 +1,94 @@
+/* Your CSS styles go here */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f4ea;
+  /* Light grayish-blue background */
+  color: #333;
+  /* Default text color */
+  line-height: 1.6;
+  /* Improved readability */
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: #e6f4ea;
+  margin-top: 7rem;
+  /* Green background */
+  color: #100f0f;
+  /* Light text color */
+  border-bottom: 5px solid #e6f4ea;
+  /* Darker green border at bottom */
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-bottom: 100px;
+  margin-top: -5rem;
+
+  /* Increased bottom margin */
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #17a14c;
+  /* Light text color */
+  font-size: 1.1em;
+  transition: color 0.3s;
+  /* Smooth color transition */
+}
+
+nav a:hover {
+  color: #fff;
+  /* Light text color on hover */
+}
+
+.cta-buttons {
+  margin-top: 40px;
+  /* Increased top margin */
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #388e3c;
+  /* Darker shade of green */
+}
+
+.btn-primary:hover {
+  background-color: #317a33;
+  /* Darker shade on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  /* Secondary color */
+  margin-left: 15px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  /* Darker shade on hover */
+}

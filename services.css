@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6f4ea;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #2b9348;
+  /* Dark green background for navigation */
+  padding: 10px 0;
+  /* Increased padding */
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 25px;
+  /* Increased margin */
+  color: #fff;
+  /* White text color for navigation links */
+  font-size: 1.2em;
+  transition: color 0.3s;
+
+}
+
+nav a:hover {
+  color: #fcdab7;
+  /* Light green text color on hover */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  /* Increased padding */
+}
+
+h2 {
+  color: #28a745;
+  /* Dark green heading color */
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 5rem;
+  /* Increased margin */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 30px;
+  /* Increased margin */
+}
+
+h3 {
+  color: #0c0d0c;
+  /* Dark green heading color */
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 5rem;
+  /* Increased margin */
+}
+
+p {
+  color: #666;
+  margin-top: 0;
+  margin-left: 5rem;
+
+}

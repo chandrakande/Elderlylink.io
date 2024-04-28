@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6f4ea;
+  /* Light green background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #28a745;
+  /* Dark green heading color */
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-top: 0;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #2b9348;
+  /* Dark green background for navigation */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #fff;
+  /* White text color for navigation links */
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fcdab7;
+  /* Light green text color on hover */
+}
+
+/* contactus.css */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6abf69;
+  /* Green border */
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  /* Green button background */
+  color: #fff;
+  /* White button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+  /* Darker green on hover */
+}

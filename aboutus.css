@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f8f1;
+  /* Light green background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2b9348;
+  /* Dark green for headings */
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  margin-left: 5rem;
+}
+
+p {
+  color: #555;
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-left: 5rem;
+}
+
+h2 {
+  margin-left: 5rem;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #2b9348;
+  /* Dark green background for navigation */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #fff;
+  /* White text color for navigation links */
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fcdab7;
+  /* Light green text color on hover */
+}
+
+/* Main Content Styles */
+section#about {
+  padding: 40px;
+  background-color: #c8e6c9;
+  /* Light green background for about section */
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+section#about h2 {
+  color: #2b9348;
+  /* Dark green heading color */
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+section#about p {
+  color: #666;
+  margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2b9348;
+  /* Dark green background for footer */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
